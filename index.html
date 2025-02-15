@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jntu Results</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+       <form class="form" action="result.php" method="post">
+        <div><label for="numb"> Enter HallTicket Number</label></div>
+        <div class="numb"><input type="text" id="numb" name="numb" required></div>
+        <div><label for="dob">Enter Date of Birth</label></div>
+        <div><input type="text" id="dob" name="dob" class="dobin"></div><div>YYYY/MM/DD</div>
+        <div><span>Please enter this Captcha code in below TexBox</span></div>
+        <div><input type="text" value="FD08DG24" class="cap"></div>
+        <div><input type="button" value="Refresh" onclick="window.location.reload()"><br></div>
+        <div class="sub"><input type="text" name="captcha" required></div>
+        <div><a href="result.html"><input type="button" value="Submit"></div></a>
+       </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

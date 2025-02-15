@@ -1,0 +1,51 @@
+.container{
+    padding: 50px;
+    font-family: sans-serif;
+    font-size: xx-small;
+    font-weight: bold;
+}
+
+table, tr, th, td{
+    border-collapse: collapse;
+    padding: 8px;
+    font-weight: bold;
+}
+
+tr{
+    background-color: #f2f2f2;
+}
+
+.result{
+    margin: 20px 0;
+}
+th{
+    border-right: solid 1px rgba(255, 255, 255, 0.411);
+    text-align: start;
+    width: 25%;
+}
+.details table{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 143, 0) ;
+}
+
+.details td{
+    background-color: rgba(187, 230, 255, 0.671);
+}
+.details th{
+    background-color: rgb(150, 205, 241);
+}
+
+.result td{
+    background-color: rgba(187, 230, 255, 0.671);
+}
+.result th{
+    background-color: rgb(150, 205, 241);
+}
+
+.vid{
+    text-align: center;
+}
